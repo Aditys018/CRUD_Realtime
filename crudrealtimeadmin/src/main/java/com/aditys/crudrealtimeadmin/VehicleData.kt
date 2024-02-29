@@ -1,9 +1,9 @@
 package com.aditys.crudrealtimeadmin
 
 data class VehicleData(
-    val ownerName: String? = null,
-    val vehicleBrand: String? = null,
-    val vehicleRTO: String? = null,
-    val vehicleNumber: String? = null){
+    val moleculeName: String? = null,
+    val heatCapacity: String? = null,
+    val molecularFormula: String? = null,
+    val moleculePH: String? = null){
 
 }

@@ -19,18 +19,18 @@ class UploadActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.saveButton.setOnClickListener{
-            val ownerName = binding.uploadOwnerName.text.toString()
-            val vehicleBrand = binding.uploadVehicleBrand.text.toString()
-            val vehicleRTO = binding.uploadVehicleRTO.text.toString()
-            val vehicleNumber = binding.uploadVehicleNumber.text.toString()
+            val ownerName = binding.uploadMoleculeName.text.toString()
+            val vehicleBrand = binding.uploadHeatCapacity.text.toString()
+            val vehicleRTO = binding.uploadMolecularFormula.text.toString()
+            val vehicleNumber = binding.uploadMoleculePH.text.toString()
 
-            databaseReference = FirebaseDatabase.getInstance().getReference("vehicle Information")
+            databaseReference = FirebaseDatabase.getInstance().getReference("Molecule Information")
             val vehicleData = VehicleData(ownerName, vehicleBrand,vehicleNumber)
             databaseReference.child(vehicleNumber).setValue(vehicleData).addOnSuccessListener {
-                binding.uploadOwnerName.text.clear()
-                binding.uploadVehicleBrand.text.clear()
-                binding.uploadVehicleRTO.text.clear()
-                binding.uploadVehicleNumber.text.clear()
+                binding.uploadMoleculeName.text.clear()
+                binding.uploadHeatCapacity.text.clear()
+                binding.uploadMolecularFormula.text.clear()
+                binding.uploadMoleculePH.text.clear()
 
                 Toast.makeText(this,"Saved" , Toast.LENGTH_SHORT).show()
                 val intent = Intent(this@UploadActivity,MainActivity::class.java)

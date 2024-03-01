@@ -19,14 +19,14 @@ class UploadActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.saveButton.setOnClickListener{
-            val ownerName = binding.uploadMoleculeName.text.toString()
-            val vehicleBrand = binding.uploadHeatCapacity.text.toString()
-            val vehicleRTO = binding.uploadMolecularFormula.text.toString()
-            val vehicleNumber = binding.uploadMoleculePH.text.toString()
+            val moleculeName = binding.uploadMoleculeName.text.toString()
+            val heatCapacity = binding.uploadHeatCapacity.text.toString()
+            val molecularFormula = binding.uploadMolecularFormula.text.toString()
+            val moleculePH = binding.uploadMoleculePH.text.toString()
 
             databaseReference = FirebaseDatabase.getInstance().getReference("Molecule Information")
-            val vehicleData = VehicleData(ownerName, vehicleBrand,vehicleNumber)
-            databaseReference.child(vehicleNumber).setValue(vehicleData).addOnSuccessListener {
+            val moleculeData = MoleculeData(moleculeName, heatCapacity,molecularFormula)
+            databaseReference.child(molecularFormula).setValue(moleculeData).addOnSuccessListener {
                 binding.uploadMoleculeName.text.clear()
                 binding.uploadHeatCapacity.text.clear()
                 binding.uploadMolecularFormula.text.clear()

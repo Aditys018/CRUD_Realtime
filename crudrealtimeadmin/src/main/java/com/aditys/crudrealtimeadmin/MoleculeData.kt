@@ -1,6 +1,6 @@
 package com.aditys.crudrealtimeadmin
 
-data class VehicleData(
+data class MoleculeData(
     val moleculeName: String? = null,
     val heatCapacity: String? = null,
     val molecularFormula: String? = null,

@@ -17,53 +17,57 @@
         android:layout_gravity="center_horizontal"
         android:padding="20dp">
 
-    <EditText
-        android:id="@+id/uploadMoleculeName"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/green_border"
-        android:layout_marginTop="20dp"
-        android:hint="Enter Owner Name"
-        android:layout_marginEnd="10dp"
-        android:gravity="start|center_vertical"
-        android:padding="16dp"
-        android:textColor="@color/green" />
+        <EditText
+            android:id="@+id/uploadMoleculeName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Molecule Name"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/darker_gray" />
 
-    <EditText
-        android:id="@+id/uploadHeatCapacity"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/green_border"
-        android:layout_marginTop="20dp"
-        android:hint="Enter Vehicle Brand"
-        android:layout_marginEnd="10dp"
-        android:gravity="start|center_vertical"
-        android:padding="16dp"
-        android:textColor="@color/green" />
+        <EditText
+            android:id="@+id/uploadHeatCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Heat Capacity"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/darker_gray" />
 
-    <EditText
-        android:id="@+id/uploadMoleculePH"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/green_border"
-        android:layout_marginTop="20dp"
-        android:hint="Enter Vehicle RTO"
-        android:layout_marginEnd="10dp"
-        android:gravity="start|center_vertical"
-        android:padding="16dp"
-        android:textColor="@color/green" />
+        <EditText
+            android:id="@+id/uploadMoleculePH"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Molecule PH"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/darker_gray" />
 
-    <EditText
-        android:id="@+id/uploadMolecularFormula"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/green_border"
-        android:layout_marginTop="20dp"
-        android:hint="Enter Vehicle Number"
-        android:layout_marginEnd="10dp"
-        android:gravity="start|center_vertical"
-        android:padding="16dp"
-        android:textColor="@color/green" />
+        <EditText
+            android:id="@+id/uploadMolecularFormula"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter Molecular Formula"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/saveButton"

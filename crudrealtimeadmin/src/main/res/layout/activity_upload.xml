@@ -18,25 +18,25 @@
         android:padding="20dp">
 
         <EditText
-            android:id="@+id/uploadMoleculeName"
+            android:id="@+id/uploadOwnerName"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/green_border"
+            android:background="@drawable/blue_border"
             android:gravity="start|center_vertical"
-            android:hint="Enter Molecule Name"
+            android:hint="Upload Molecule Name"
             android:padding="16dp"
             android:textColor="@color/white"
             android:textColorHint="@android:color/darker_gray" />
 
         <EditText
-            android:id="@+id/uploadHeatCapacity"
+            android:id="@+id/uploadVehicleBrand"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/green_border"
+            android:background="@drawable/blue_border"
             android:gravity="start|center_vertical"
             android:hint="Enter Heat Capacity"
             android:padding="16dp"
@@ -44,25 +44,25 @@
             android:textColorHint="@android:color/darker_gray" />
 
         <EditText
-            android:id="@+id/uploadMoleculePH"
+            android:id="@+id/uploadVehicleRTO"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/green_border"
+            android:background="@drawable/blue_border"
             android:gravity="start|center_vertical"
-            android:hint="Enter Molecule PH"
+            android:hint="Enter PH"
             android:padding="16dp"
             android:textColor="@color/white"
             android:textColorHint="@android:color/darker_gray" />
 
         <EditText
-            android:id="@+id/uploadMolecularFormula"
+            android:id="@+id/uploadVehicleNumber"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/green_border"
+            android:background="@drawable/blue_border"
             android:gravity="start|center_vertical"
             android:hint="Enter Molecular Formula"
             android:padding="16dp"

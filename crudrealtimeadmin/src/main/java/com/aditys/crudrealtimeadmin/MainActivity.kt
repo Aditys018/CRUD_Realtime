@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-        binding.mainUpdate.setOnClickListener{
-            val intent = Intent(this@MainActivity, UpdateActivity::class.java)
+        binding.mainDelete.setOnClickListener{
+            val intent = Intent(this@MainActivity, DeleteActivity::class.java)
             startActivity(intent)
             finish()
         }
